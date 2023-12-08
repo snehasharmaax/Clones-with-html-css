@@ -1,0 +1,94 @@
+@font-face {
+  font-family: ama;
+  src: url(./assets/pDxWAF1pBB0dzGB.ttf);
+}
+
+* {
+  font-family: ama;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  height: 7rem;
+  background-color: aqua;
+  width: 100%;
+}
+.nav-belt {
+  height: 4rem;
+  background-color: rgb(38, 37, 43);
+  width: 100%;
+  display: flex;
+}
+
+.nav-left {
+  width: 25%;
+  height: 4rem;
+  background-color: rgb(25, 27, 37);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  padding: 1rem;
+}
+.logo img {
+  height: 3rem;
+  /* padding-top: 0.8rem; */
+  width: 5.5rem;
+}
+.logo img:hover {
+  border: 1px solid white;
+}
+.location {
+  display: flex;
+  margin-left: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4px;
+}
+.location:hover {
+  border: 1px solid white;
+}
+.location div {
+  padding: 0.4rem;
+}
+.loc-icon i {
+  color: #fff;
+  padding-top: 1.5rem;
+}
+.loc-info .one a {
+  color: #fff;
+  font-size: 0.7rem;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.loc-info .two a {
+  color: #fff;
+  /* font-size: 0.7rem; */
+  text-decoration: none;
+}
+.nav-fill {
+  width: 50%;
+  height: 4rem;
+  background-color: red;
+  display: flex;
+}
+.drop {
+  padding: 0.7rem;
+}
+.dropdown {
+  padding: 0.7rem 0;
+}
+.search {
+  padding: 0.7rem 0;
+  /* width: 20px; */
+}
+.nav-right {
+  width: 25%;
+  height: 4rem;
+  background-color: brown;
+}
